@@ -1,0 +1,12 @@
+.filter{
+    height: 3.5rem;
+    width: 24rem;
+    outline: none;
+    border-radius: .5rem;
+    border:white 2px solid;
+    transition:border .5s;
+    padding: 1rem;
+}
+.filter:focus{
+    border:tomato 2px solid;
+}
