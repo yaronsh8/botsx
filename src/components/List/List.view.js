@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import Card from '../Card/Card.view';
+import css from './List.css';
+
 export default class List extends Component {
 
     constructor(props) {

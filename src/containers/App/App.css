@@ -1,8 +1,99 @@
-.filter-box{
-    align-self: flex-end;
-    padding: 10px;
+html,body{
+    height: 100%;
+}
+html{
+    font-size: 10px;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: papayawhip;
+    background: -moz-linear-gradient(top,  #f5f5dc 0%, #d2b48c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f5f5dc 0%,#d2b48c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f5f5dc 0%,#d2b48c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-    font-size: 20px;
+.main{
+    background: Cornsilk;
+    padding: 1.5rem 1.5rem 1.5rem; 
+    border-radius: .4rem;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 .4rem 1.5rem DimGrey;
+    position: relative;
+    min-width: 60rem;
+    margin-top:5rem;
 }
+.header{
+    background: lightsalmon;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    border-radius: .4rem .4rem 0 0;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.headline{
+    font-size: 5rem;
+    font-weight:normal;
+    font-family: 'Griffy', cursive;
+    text-align: center;
+    color:slategray;
+}
+.header .headline{
+    color:ghostwhite;
+    
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.filter-box{
+    display:flex;
+    align-items: center;
+    align-self: flex-end;
+    padding: 10px;
+    
+}
+.filter{
+    height: 3.5rem;
+    width: 24rem;
+    outline: none;
+    border-radius: .5rem;
+    border:white 2px solid;
+    transition:border .5s;
+    padding: 1rem;
+}
+.filter:focus{
+    border:tomato 2px solid;
+}
+.filter-title{
+    font-family: 'Expletus Sans';
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+    color: darkred;
+    margin-right: 1.5rem;
+}
+.content-box{
+	/*border:red solid 2px;*/
+	border-radius:5px;
+	display: flex;
+    /* padding-top: 9rem; */
+}
+
+li{
+    list-style-type: none;
+ }
+ 

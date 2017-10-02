@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Thumb from '../Thumb/Thumb.view';
-
+import css from './Card.css'
 
 export default ( {first_name,country,description,avatar} ) => {
 

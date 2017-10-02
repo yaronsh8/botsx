@@ -30,7 +30,7 @@ class App extends Component {
                 <TopBar>Choose your Bot - built with React+Redux</TopBar>
                 <div className="filter-box">
                     {/* {console.log('original: ', {original_list}, 'displayed: ', {displayed_list})} */}
-                    <p>Filter by Bot name: </p>
+                    <h4 className="filter-title">Filter by Bot name: </h4>
                     <Filter className="filter" list_data={original_list} on_filter={doFilterData}/>                    
                 </div>
                 <div className="content-box">

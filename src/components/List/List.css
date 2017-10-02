@@ -1,0 +1,15 @@
+.cards-list{
+    background: oldlace;
+    height: 75vh;
+	border-radius: .4rem;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 .2rem .8rem DimGrey;
+    flex:1;
+}
+.card-item:nth-child(even) {
+    background: honeydew;
+}
+.card-item:nth-child(odd) {
+    background: white;
+}

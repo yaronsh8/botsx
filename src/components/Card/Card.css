@@ -1,0 +1,38 @@
+.card{
+	padding: 2rem 2.8rem;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.card:hover{
+    background: paleturquoise;
+}
+.card:hover .thumb{
+    box-shadow: 0 .4rem 1.5rem DimGrey;
+     margin-bottom:3rem;
+     padding-bottom:1rem;
+}
+.card:active{
+    background: skyblue;
+    color: white;
+}
+.card:active .paragraph{
+    color: white;
+}
+.card:active .thumb{
+    box-shadow: 0 .4rem 1.5rem DimGrey;
+}
+.texts-box{
+	padding-left: 2.8rem;
+}
+.card-title{
+    font-family: 'Expletus Sans';
+    text-align: left;
+    font-size: 2.8rem;
+}
+.card-msg{
+	font-family: 'Raleway' ;
+	font-size: 1.4rem;
+	max-width: 35rem;
+}
